@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title></title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+.r img{
+width:100%;
+height:730px;
+filter:contrast(7%);
+background-size:cover;
+}
+header{
+position:fixed;
+top:2px;
+width:100%;
+font-size:20px;
+}
+header li{
+position:relative;
+right:250px;
+top:6px
+}
+header button{
+position:relative;
+right:250px;
+background-color:orange;
+border: 1px solid orange;
+border-radius:3px;
+margin: 7px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+a:hover{
+color:orange;
+}
+.k{
+position:absolute;
+top:160px;
+left:80px
+}
+.k h1{
+color:white;
+font-family:arial;
+font-size:50px;
+}
+.k h4{
+color:white;
+font-family:arial;
+}
+.k button{
+background-color:orange;
+border: 1px solid orange;
+border-radius:5px;
+padding: 9px;
+position:relative;
+top: 17px;
+left:40px;
+width:200px;
+font-size:25px
+}
+.k img{
+float:right;
+width:550px;
+height:550px;
+position:relative;
+bottom:250px;
+left:450px;
+border:1px solid black;
+border-radius:100%;
+animation:think 10s linear infinite;
+}
+@keyframes think{
+from{transform:rotate(0deg)}
+to{transform:rotate(360deg)}
+}
+button:hover{
+background-color:orange
+}
+.fa{
+z-index:-1;
+}
+#l img{
+width:250px;
+height:250px;
+position:relative;
+top:40px;
+left:100px;
+border:1px solid white;
+border-radius:5px;
+animation: thin 4s linear;
+}
+@keyframes thin{
+from{transform: scale(0.2,0.2);}
+to{transform: scale(1,1);}
+}
+#o img{
+width:200px;
+height:150px;
+position:relative;
+top:140px;
+left:90px;
+border:1px solid white;
+border-radius:5px;
+animation: thin 4s linear;
+}
+@keyframes thin{
+from{transform: scale(0.2,0.2);}
+to{transform: scale(1,1);}
+}
+#v img{
+width:200px;
+height:150px;
+position:relative;
+top:50px;
+left:150px;
+border:1px solid white;
+border-radius:5px;
+animation: thin 4s linear;
+}
+@keyframes thin{
+from{transform: scale(0.2,0.2);}
+to{transform: scale(1,1);}
+}
+#e img{
+width:250px;
+height:250px;
+position:relative;
+top:50px;
+left:140px;
+border:1px solid white;
+border-radius:5px;
+animation: thin 4s linear;
+}
+@keyframes thin{
+from{transform: scale(0.2,0.2);}
+to{transform: scale(1,1);}
+}
+#l,#o,#v,#e{
+z-index:-1;
+}
+#s h3{
+color:orange;
+position:relative;
+top:90px;
+left:150px;
+font-weight:bold;
+font-family:italic
+}
+#s h2{
+position:relative;
+top:90px;
+left:150px;
+font-weight:bold;
+font-family:cursive;
+font-size:50px
+}
+#x h4{
+position:relative;
+left:140px;
+top:-50px
+}
+#n h3{
+position:relative;
+left:-640px;
+top:150px;
+font-size:55px;
+color:orange
+}
+#n h4{
+position:relative;
+left:-530px;
+top:85px;
+font-size:30px;
+}
+#m h3{
+color:orange;
+position:relative;
+left:940px;
+top:-95px;
+font-size:55px;
+}
+#m h4{
+position:relative;
+left:1050px;
+top:-170px;
+font-size:30px;
+}
+#q{
+position:relative;
+top:-145px;
+left:650px;
+background-color:orange;
+border:1px solid orange;
+border-radius:5px;
+padding:5px;
+margin:5px
+}
+#y h3{
+position:relative;
+top:-50px;
+color:orange;
+font-family:times-new-roman;
+font-weight:bold;
+font-size:40px
+}
+#y h4{
+position:relative;
+top:-40px;
+font-family:arial;
+font-weight:bold;
+font-size:45px
+}
+#p i{
+position:relative;
+top:-30px;
+left:485px;
+color:orange;
+font-size:43px
+}
+#p p{
+position:relative;
+top:-75px;
+left:560px;
+font-size:20px
+}
+#p h3{
+position:relative;
+top:-95px;
+left:565px;
+font-size:20px;
+font-weight:bolder
+}
+
+#r i{
+position:relative;
+top:-30px;
+left:550px;
+color:orange;
+font-size:43px
+}
+#r p{
+position:relative;
+top:-75px;
+left:620px;
+font-size:20px
+}
+#r h3{
+position:relative;
+top:-95px;
+left:622px;
+font-size:20px;
+font-weight:bolder
+}
+#g i{
+position:relative;
+top:-30px;
+left:620px;
+color:orange;
+font-size:43px
+}
+#g p{
+position:relative;
+top:-75px;
+left:680px;
+font-size:20px
+}
+#g h3{
+position:relative;
+top:-95px;
+left:685px;
+font-size:20px;
+font-weight:bolder
+}
+#nk img{
+position:relative;
+left:150px;
+top:-20px;
+height:100px
+}
+#nk h2{
+position:relative;
+left:260px;
+top:-120px;
+font-size:25px;
+}
+#nk p{
+position:relative;
+left:500px;
+top:-155px;
+color:orange;
+font-weight:bold;
+font-size:20px
+}
+#nk hr{
+position:relative;
+left:260px;
+top:-155px;
+}
+#nk h4{
+position:relative;
+left:260px;
+top:-155px;
+}
+#kn img{
+position:relative;
+left:260px;
+top:-20px;
+height:100px
+}
+#kn h2{
+position:relative;
+left:380px;
+top:-120px;
+font-size:25px;
+}
+#kn p{
+position:relative;
+left:620px;
+top:-155px;
+color:orange;
+font-weight:bold;
+font-size:20px
+}
+#kn hr{
+position:relative;
+left:380px;
+top:-155px;
+}
+#kn h4{
+position:relative;
+left:380px;
+top:-155px;
+}
+#fr{
+  position: relative;
+  top: -120px;
+}
+#rf{
+  position: relative;
+  top: -240px;
+}
+#rm{
+  position: relative;
+  top: -360px;
+}
+#nk,#kn{
+  z-index: -1;
+}
+#kr{
+  position: relative;
+  top: -420px;
+  z-index: -1;
+}
+#sr img{
+  position: relative;
+  left: 20px;
+}
+.tr{
+  position: relative;
+  top: -330px;
+}
+#ht{
+  position:relative;
+  top:-360px;
+  left:130px;
+  z-index: -1;
+}
+#th{
+  position:relative;
+  top:-360px;
+  left:130px;
+  z-index: -1;
+}
+#th p{
+position: relative;
+top: 40px;
+font-weight: bolder;
+}
+#th h3{
+  position:relative;
+  top:-80px;
+  left:10px;
+}
+#th h6{
+  position:relative;
+  top:-80px;
+  left:-15px;
+}
+#th img{
+  width:70px;
+  height:70px;
+  border: 1px solid white;
+  border-radius: 100%;
+  position: relative;
+  left: -120px;
+  top:-10px
+}
+#gr{
+  background-color: black;
+  width: 1500px;
+  height: 400px;
+  position: relative;
+  top: -350px;
+  left:10px;
+  z-index: -1;
+}
+#li{
+  position: relative;
+  top:-700px;
+  left: 80px;
+}
+#es h2{
+  color: orange;
+  font-family: cursive;
+}
+#se h2{
+  color: orange;
+  font-family: cursive;
+  position: relative;
+  left: 150px;
+}
+#ses h2{
+  color: orange;
+  font-family: cursive;
+  position: relative;
+  left: 250px;
+}
+#sess h2{
+  color: orange;
+  font-family: cursive;
+  position: relative;
+  left: 350px;
+}
+#li p,i{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#se i{
+  position: relative;
+  top: 10px;
+  left: 150px;
+}
+#se p{
+  position: relative;
+  top: -15px;
+  left: 170px;
+  }
+#ses p{
+  position: relative;
+  left: 280px;
+  top: 5px;
+}
+#sess p{
+  position: relative;
+  left: 350px;
+  top: 5px;
+}
+#in{
+  position: relative;
+  left: 350px;
+}
+#bt{
+  position: relative;
+  top: -57px;
+  left: 500px;
+  width: 100px;
+  height: 40px;
+}
+@media screen and (max-width:600px){
+.r img{
+height:700px;
+}
+.k{
+position:absolute;
+top:100px;
+text-align:center;
+}
+.k h1{
+font-size:25px;
+font-family:bold
+}
+.k h4{
+font-size:13px;
+font-family:bold
+}
+.k button{
+width:150px;
+font-size:15px
+}
+.k img{
+height:280px;
+width:280px;
+position:absolute;
+top:200px;
+left:40px
+}
+header li{
+position:relative;
+left:100px
+}
+header button{
+position:relative;
+right:20px;
+background-color:orange;
+border: 1px solid orange;
+border-radius:3px;
+}
+header ul button{
+width:280px;
+position:relative;
+left:20px;
+}
+#l,#o,#v,#e{
+position:relative;
+top:25px;
+left:-65px;
+z-index:-1;
+}
+#v,#e{
+position:relative;
+top:-75px;
+}
+#s h3{
+position:relative;
+top:320px;
+left:20px;
+font-size:30px;
+}
+#s h2{
+position:relative;
+top:340px;
+left:30px;
+font-size:30px;
+}
+#x h4{
+position:relative;
+top:100px;
+left:15px;
+font-size:18px
+}
+#n h3{
+position:relative;
+top:100px;
+left:15px;
+}
+#n h4{
+position:relative;
+top:40px;
+left:105px;
+font-size:18px
+}
+#m h3{
+position:relative;
+top:170px;
+left:-95px;
+}
+#m h4{
+position:relative;
+top:100px;
+left:-5px;
+font-size:18px
+}
+#q{
+position:relative;
+top:130px;
+left:10px;
+font-size:30px
+}
+#y h3{
+position:relative;
+top:160px;
+}
+#y h4{
+position:relative;
+top:170px;
+}
+#p i{
+position:relative;
+top:170px;
+left:45px;
+color:orange;
+font-size:43px
+}
+#p p{
+position:relative;
+top:125px;
+left:120px;
+font-size:20px
+}
+#p h3{
+position:relative;
+top:110px;
+left:125px;
+font-size:20px;
+font-weight:bolder
+}
+
+#r i{
+position:relative;
+top:172px;
+left:110px;
+color:orange;
+font-size:43px
+}
+#r p{
+position:relative;
+top:125px;
+left:167px;
+font-size:20px
+}
+#r h3{
+position:relative;
+top:110px;
+left:162px;
+font-size:20px;
+font-weight:bolder
+}
+#g i{
+position:relative;
+top:172px;
+left:140px;
+color:orange;
+font-size:43px
+}
+#g p{
+position:relative;
+top:125px;
+left:194px;
+font-size:20px
+}
+#g h3{
+position:relative;
+top:110px;
+left:196px;
+font-size:20px;
+font-weight:bolder
+}
+#nk img{
+position:relative;
+top:120px;
+left:8px
+}
+#nk h2{
+position:relative;
+left:120px;
+top:20px;
+font-size:20px;
+}
+#nk p{
+position:relative;
+left:350px;
+top:-10px;
+color:orange;
+font-weight:bold;
+font-size:20px
+}
+#nk hr{
+position:relative;
+left:120px;
+top:-20px;
+}
+#nk h4{
+position:relative;
+left:120px;
+top:-25px;
+font-size:15px
+}
+#kn img{
+position:relative;
+top:10px;
+left:8px
+}
+#kn h2{
+position:relative;
+left:120px;
+top:-90px;
+font-size:20px;
+}
+#kn p{
+position:relative;
+left:350px;
+top:-120px;
+color:orange;
+font-weight:bold;
+font-size:20px
+}
+#kn hr{
+position:relative;
+left:120px;
+top:-120px;
+}
+#kn h4{
+position:relative;
+left:120px;
+top:-125px;
+font-size:15px
+}
+#fr{
+  position: relative;
+  top: -220px;
+}
+#rf{
+  position: relative;
+  top: -440px;
+}
+#rm{
+  position: relative;
+  top: -660px;
+}
+#kr{
+  position: relative;
+  top: -730px;
+}
+#sr img{
+  width: 500px;
+}
+.tr{
+  position: relative;
+  top: -830px;
+}
+#ht{
+  position:relative;
+  top:-650px;
+}
+#th{
+  position:relative;
+  top:-650px;
+  left:10px
+}
+#gr{
+  height: 600px;
+  width: 530px;
+  position: relative;
+  top: -600px;
+  z-index: -1;
+}
+#es{
+  position: relative;
+  top: -450px;
+  left: -45px;
+}
+#se{
+  position: relative;
+  top: -450px;
+  left: -160px;
+}
+#ses{
+  position: relative;
+  top: -450px;
+  left: -300px;
+}
+#sess{
+  position: relative;
+  top: -450px;
+  left: -380px;
+}
+}
+</style>
+</head>
+
+<body>
+<div class="r">
+<img src="https://cdn.pixabay.com/photo/2018/09/14/11/12/food-3676796_1280.jpg">
+</div>
+<div class="k">
+<h1>Enjoy Our<br>Delicious Meal</h1>
+<h4>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam<br>amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita<br>duo justo magna dolore erat amet</h4>
+<button>BOOK A TABLE</button>
+<a href="order.html"><button>ORDER NOW</button></a>
+<img src="https://img.etimg.com/thumb/msid-63413308,width-650,height-488,imgsize-391266,,resizemode-75/.jpg">
+</div>
+<header>
+<div class="navbar navbar-light bg-dark navbar-expand-md">
+&nbsp;&nbsp;<a href="" class="navbar-brand" style="color:orange;font-size:35px;"><i class="fa fa-cutlery" aria-hidden="true" style="color:orange;font-size:30px;"></i>&nbsp;&nbsp;Restoran</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a href="refer.html" clas="nav-link active">Home</a></li>&nbsp;&nbsp;
+<li class="nav-item"><a href="ab.html" clas="nav-link active">About</a></li> &nbsp;&nbsp;
+<li class="nav-item"><a href="service.html" clas="nav-link active">Service</a></li>&nbsp;&nbsp;
+<li class="nav-item"><a href="men.html" clas="nav-link active">Menu</a></li> &nbsp;&nbsp;
+<li class="dropdown nav-item">
+            <a href=""class="nav-link active dropdown-toggle"data-bs-toggle="dropdown" style="color:white">Pages</a>
+            <ul class="dropdown-menu">
+                <a href="boo.html"><li class="dropdown-item" style="position:relative;left:5px">Booking</li></a>
+                <a href="our.html"><li class="dropdown-item" style="position:relative;left:5px">Our Team</li></a>
+                <a href="test.html"><li class="dropdown-item" style="position:relative;left:5px">Testimonial</li></a>
+          </ul></li>&nbsp;&nbsp;
+<li class="nav-item"><a href="co.html"clas="nav-link active">Contact</a></li>&nbsp;&nbsp;
+<button>Book A Table</button>
+<a href="order.html"><button>ORDER NOW</button></a>
+</ul>
+</div>
+</div>
+</header>
+<div class="row m-4" style="position:relative;top:60px;left:130px">
+<div class="col-auto m-4">
+<button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+<i class="fa fa-user" aria-hidden="true" style="position:relative;top:10px;right:60px;font-size:60px;color:black;"></i>
+<br><br>
+<h3>Master Chefs</h3>
+<h6>Diam elitr kasd sed at elitr<br>sed ipsum justo dolor sed<br>clita amet diam</h6>
+  </button>
+</div>
+<div class="col-auto m-4">
+<button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+<i class="fa fa-cutlery" aria-hidden="true" style="position:relative;top:10px;right:60px;font-size:60px;color: black;"></i>
+<br><br>
+<h3>Quality Food</h3>
+<h6>Diam elitr kasd sed at elitr<br>sed ipsum justo dolor sed<br>clita amet diam</h6>
+  </button>
+</div> 
+<div class="col-auto m-4">
+<button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+<i class="fa fa-shopping-cart" aria-hidden="true" style="position:relative;top:10px;right:60px;font-size:60px;color: black;"></i>
+<br><br>
+<h3>Online Order</h3>
+<h6>Diam elitr kasd sed at elitr<br>sed ipsum justo dolor sed<br>clita amet diam</h6>
+  </button>
+</div> 
+<div class="col-auto m-4">
+<button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+<i class= "fa fa-headphones" aria-hidden="true"style="position:relative;top:10px;right:60px;font-size:60px;color:black;"></i>
+<br><br>
+<h3>24/7 Service</h3>
+<h6>Diam elitr kasd sed at elitr<br>sed ipsum justo dolor sed<br>clita amet diam</h6>
+  </button>
+</div> 
+</div>
+<div class="row">
+<div id="l" class="col-auto">
+<img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/about-1.jpg">
+</div>
+<div id="o" class="col-auto">
+<img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/about-2.jpg">
+</div>
+<div id="s" class="col-auto">
+<h3>about us____</h3>
+<h2>Welcome to <i class="fa fa-cutlery" aria-hidden="true" style="color:orange;font-size:50px;"></i>&nbsp;Restoran</h2>
+</div>
+</div>
+<div class="row">
+<div id="v" class="col-auto">
+<img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/about-3.jpg">
+</div>
+<div id="e" class="col-auto">
+<img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/about-4.jpg">
+</div>
+<div id="x" class="col-auto">
+<h4>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam <br>amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</h4><br>
+<h4>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam <br>amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita <br>duo justo magna dolore erat amet
+</h4>
+</div>
+<div id="n" class="col-auto">
+<h3>|15</h3>
+<h4>Years Of <br>Experience</h4>
+</div>
+<div id="m" class="col-auto">
+<h3>|50</h3>
+<h4>Popular <br>MASTER CHEFS</h4>
+</div>
+</div>
+<button id="q">READ MORE</button>
+<center>
+<div id="y">
+<h3>___ Food Menu ___</h3>
+<h4>Most Popular Items</h4>
+</div>
+<div class="row">
+<div id="p" class="col-auto">
+<i class="fa fa-coffee" aria-hidden="true"></i>
+<p>Popular</p>
+<h3>Breakfast</h3>
+</div>
+<div id="r" class="col-auto">
+<i class="fas fa-hamburger"></i>
+<p>Special</p>
+<h3>Lunch</h3>
+</div>
+<div id="g" class="col-auto">
+<i class="fa fa-cutlery" aria-hidden="true"></i>
+<p>Lovely</p>
+<h3>Dinner</h3>
+</div>
+</div>
+</center>
+<div class="row">
+<div id="nk" class="col-auto">
+<img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-1.jpg">
+<h2>Chicken Burger</h2>
+<p>$115</p>
+<hr>
+<h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+</div>
+<div id="kn" class="col-auto">
+<img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-2.jpg">
+<h2>Chicken Burger</h2>
+<p>$115</p>
+<hr>
+<h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+</div>
+</div>
+<div id="fr" class="row">
+  <div id="nk" class="col-auto">
+  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-3.jpg">
+  <h2>Chicken Burger</h2>
+  <p>$115</p>
+  <hr>
+  <h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+  </div>
+  <div id="kn" class="col-auto">
+  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-4.jpg">
+  <h2>Chicken Burger</h2>
+  <p>$115</p>
+  <hr>
+  <h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+  </div>
+  </div>
+  <div id="rf" class="row">
+    <div id="nk" class="col-auto">
+    <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-5.jpg">
+    <h2>Chicken Burger</h2>
+    <p>$115</p>
+    <hr>
+    <h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+    </div>
+    <div id="kn" class="col-auto">
+    <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-6.jpg">
+    <h2>Chicken Burger</h2>
+    <p>$115</p>
+    <hr>
+    <h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+    </div>
+    </div>
+    <div id="rm" class="row">
+      <div id="nk" class="col-auto">
+      <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-7.jpg">
+      <h2>Chicken Burger</h2>
+      <p>$115</p>
+      <hr>
+      <h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+      </div>
+      <div id="kn" class="col-auto">
+      <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/menu-8.jpg">
+      <h2>Chicken Burger</h2>
+      <p>$115</p>
+      <hr>
+      <h4>Ipsum ipsum clita erat amet dolor justo diam</h4>
+      </div>
+      </div>
+      <div class="row" id="kr">
+        <div class="col-md-6" id="sr">
+          <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/video.jpg">
+        </div>
+        <div class="col-md-6 bg-dark d-flex align-items-center">
+          <div class="p-5 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <h5 class="section-title ff-secondary text-start text-warning fw-normal">Reservation____</h5>
+            <h1 class="text-white mb-4">Book A Table Online</h1>
+            <form action="#" method="post">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                  <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    <label for="email">Your Email</label>
+                  </div>
+                  </div>
+                  <div class="col-sm-6">
+                  <div class="form-floating date" id="date3" data-target-input="nearest">
+                    <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date &amp; Time" data-target="#date3" data-toggle="datetimepicker">
+                    <label for="datetime">Date &amp; Time</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <select class="form-select" id="select1">
+                      <option value="1">People 1</option>
+                      <option value="2">People 2</option>
+                      <option value="3">People 3</option>
+                    </select>
+                    <label for="select1">No Of People</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Special Request" id="message" style="height:100px"></textarea>
+                    <label for="message">Special Request</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-warning w-100 py-3" type="submit">Book Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <center>
+        <div id="y" class="tr">
+        <h3>___ Team Members ___</h3>
+        <h4>Our Master Chefs</h4>
+        </div>
+      </center>
+      <div class="row m-4" id="ht">
+        <div class="col-auto m-4">
+        <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:350px">
+        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/team-1.jpg" style="width: 200px;height: 200px;border: 1px solid white;border-radius: 100%;">
+        <br><br>
+        <h3>Full name</h3>
+        <h6>Designation</h6>
+          </button>
+        </div>
+        <div class="col-auto m-4">
+        <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:350px">
+        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/team-2.jpg" style="width: 200px;height: 200px;border: 1px solid white;border-radius: 100%;">
+        <br><br>
+        <h3>Full name</h3>
+        <h6>Designation</h6>
+          </button>
+        </div> 
+        <div class="col-auto m-4">
+        <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:350px">
+          <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/team-3.jpg" style="width: 200px;height: 200px;border: 1px solid white;border-radius: 100%;">
+        <br><br>
+        <h3>Full name</h3>
+        <h6>Designation</h6>
+          </button>
+        </div> 
+        <div class="col-auto m-4">
+        <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:350px">
+          <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/team-4.jpg" style="width: 200px;height: 200px;border: 1px solid white;border-radius: 100%;">
+        <br><br>
+        <h3>Full name</h3>
+        <h6>Designation</h6>
+          </button>
+        </div> 
+        </div>
+        <center>
+          <div id="y" class="tr">
+          <h3>___Testimonial___</h3>
+          <h4>Our Clients Say!!!</h4>
+          </div>
+        </center>
+        <div class="row m-4" id="th">
+          <div class="col-auto m-4">
+          <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+            <p>Dolor et eos labore, stet justo sed est sed.<br>Diam sed sed dolor stet amet eirmod eos<br>labore diam</p>
+          <br><br>
+          <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/testimonial-4.jpg">
+          <h3>Client Name</h3> 
+          <h6>Profeesion</h6>   
+        </button>
+          </div>
+          <div class="col-auto m-4">
+          <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+            <p>Dolor et eos labore, stet justo sed est sed.<br>Diam sed sed dolor stet amet eirmod eos<br>labore diam</p>
+            <br><br>
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/testimonial-2.jpg">
+            <h3>Client Name</h3> 
+            <h6>Profeesion</h6>   
+       
+            </button>
+          </div> 
+          <div class="col-auto m-4">
+          <button class="btn btn-muted" style="box-shadow:1px 1px 5px grey;height:250px">
+            <p>Dolor et eos labore, stet justo sed est sed.<br>Diam sed sed dolor stet amet eirmod eos<br>labore diam</p>
+            <br><br>
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/restoran/assets/img/testimonial-1.jpg">
+            <h3>Client Name</h3> 
+            <h6>Profeesion</h6>   
+          </button>
+          </div> 
+        </div> 
+        <div id="gr"></div> 
+        <div class="row" id="li">
+         <div class="col-auto" id="es">
+        <h2>Company ____</h2><br>
+        <p>* About Us</p>
+        <p>* Contact Us</p>
+        <p>* Reservation</p>
+        <p>* Privacy Policy</p>
+        <p>* Terms & Conditions</p>
+        </div>
+        <div class="col-auto" id="se">
+          <h2>Contact ____</h2>
+          <i class="fa fa-map-marker-alt me-3"></i>
+          <p>123 Street, New York, USA</p>
+          <i class="fa fa-phone-alt me-3" style="position: relative;top: -20px;"></i>
+          <p style="position: relative;top: -45px;">+012 345 67890</p>
+          <i class="fa fa-envelope me-3" style="position: relative;top: -53px;"></i>
+          <p style="position: relative;top: -83px;">mail@domain.com</p>
+        <div style="position: relative;top: -90px;">&nbsp;&nbsp;<i class="fab fa-twitter"></i>&nbsp;&nbsp;<i class="fab fa-facebook-f"></i>&nbsp;&nbsp;<i class="fab fa-youtube"></i>&nbsp;&nbsp;<i class="fab fa-linkedin-in"></i>
+        </div>  
+      </div>
+          <div class="col-auto" id="ses">
+            <h2>Opening ____</h2>
+            <p>Monday - Saturday</p>
+            <p>09AM - 09PM</p>
+            <p>Sunday</p>
+            <p>10AM - 08PM</p>
+            </div>
+            <div class="col-auto" id="sess">
+              <h2>NewsLetter ____</h2>
+              <p>Dolor amet sit justo amet elitr<br>clita ipsum elitr est.</p>
+              <input id="in" class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+              <button id="bt" type="button" class="btn btn-warning py-2  end-0 mt-2 me-2">SignUp</button>
+              </div>
+        </div>    
+</body>
+</html>

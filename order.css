@@ -1,0 +1,101 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 5rem;
+    border-bottom:1px solid #ccc ;
+    box-shadow:2px 3px 4px #333;
+
+}
+.header p{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+    color:#333;
+    margin-left: 30px;
+
+}
+li a:hover{
+    color:darkorange;
+}
+
+
+
+
+
+
+
+
+.container{
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width:max-content;
+}
+.card{
+    border: 1px solid;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+.card img{
+    width: 300px;
+    padding: 5px;
+    height: 300px;
+}
+.title{
+    font-weight: bold;
+    margin: 20px;
+}
+button{
+    border: 2px solid #e1701a;
+    background-color: #f7a440;
+    color:white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    box-shadow: 0 0 5px 5px #e1701a inset;
+}
+.cart{
+    width:400px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y:scroll;
+    height: 580px;
+    margin-top:20px;
+    background-color: darkorange;
+}
+.cartImg > img{
+    width: 200px;
+}
+.cart .total{
+    position: relative;
+    top: 100px;
+    background-color: #333;
+    padding: 10px;
+   
+}
+.cart .total a{
+    text-decoration: none;
+    color: #ccc;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
